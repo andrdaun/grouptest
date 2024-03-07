@@ -1,0 +1,51 @@
+.group {
+	border: 1px solid #ececec;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-gap: 30px;
+}
+
+.none-avatar,
+.avatar {
+	width: 100px;
+	height: 100px;
+}
+
+.avatar {
+	border-radius: 50%;
+	border: 1px solid #ececec;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.header {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.privacy {
+	opacity: 0.5;
+}
+
+.friends {
+	cursor: pointer;
+}
+
+.friends-list {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.friend {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	border: 1px solid #ececec;
+}
